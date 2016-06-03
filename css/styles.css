@@ -19,3 +19,12 @@ body {
   max-width: 800px;
   margin-left: 20px;
 }
+img {
+  max-width: 585px;
+}
+#userOptions {
+  display: none;
+}
+#again {
+  display: none;
+}
