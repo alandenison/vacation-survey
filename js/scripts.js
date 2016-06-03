@@ -5,18 +5,26 @@ $(document).ready(function() {
   var ansActivity = $("#activity").val();
   var ansLanguage = $("#language").val();
     $('.submit').hide();
+    $('#userOptions').fadeToggle();
     $('#again').show();
     if (ansClimate === 'mordor' || ansActivity === 'orcs') {
-      $('#mordorMiddle').show();
+      $('#mordorMiddle').delay(600).fadeToggle();
     } else if (ansClimate === 'snowy' && ansLanguage != 'spanish') {
-      $('#aspenCo').show();
+      $('#aspenCo').delay(600).fadeToggle();
     } else {
-      $('#madridSpain').show();
+      $('#madridSpain').delay(600).fadeToggle();
     }
   });
 });
 $(document).ready(function() {
   $(".lead").click(function() {
-    $('#userOptions').show();
+    $('#userOptions').slideToggle();
+    $('#headertron').slideToggle();
+  });
+});
+$(document).ready(function() {
+  $("#mordorBtn").click(function() {
+    $('#mordorMiddle').fadeToggle();
+    $('.simply').delay(400).fadeToggle();
   });
 });

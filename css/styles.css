@@ -19,10 +19,9 @@
 #headertron {
   height: 350px;
   margin-top: 8px;
-
 }
 body {
-  background-color: #3e6d99;
+  background-color:  #0c2d06;
   font: white;
 }
 .panel {
@@ -43,10 +42,16 @@ img {
 .outsidelink {
   color: white;
 }
-
 .simply{
+  display: none;
   max-width: 600px;
 }
 .panel-footer{
   background-color: #f2b5a6
+}
+.carousel-control .icon-prev, .carousel-control .icon-next {
+    font-size: 200px;
+    margin-top: -50px;
+    color: green;
+    font-weight: 500;
 }
