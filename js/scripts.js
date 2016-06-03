@@ -4,12 +4,13 @@ $(document).ready(function() {
   var ansClimate = $("#climate").val();
   var ansActivity = $("#activity").val();
   var ansLanguage = $("#language").val();
+    $('.submit').hide();
     if (ansClimate === 'mordor' || ansActivity === 'orcs') {
       $('#mordorMiddle').show();
-    } else if (ansClimate === 'snowy') {
+    } else if (ansClimate === 'snowy' && ansLanguage != 'spanish') {
       $('#aspenCo').show();
     } else {
-      $('#madridSpain').show()
+      $('#madridSpain').show();
     }
   });
 });
