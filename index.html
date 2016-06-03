@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="Container">
-      <div class="jumbotron">
+      <div id="headertron" class="jumbotron">
         <h1 class="display-3">Vacation Quiz!</h1>
         <p class="lead">Answer the questions to find your ideal vacation spot</p>
         <hr class="m-y-2">
@@ -82,10 +82,32 @@
       <div class="panel-body">
         <p>Your ideal vaction spot is...</p>
         <h1>MADRID, SPAIN</h1>
-      </div>
-      <div class="panel-footer">
-        <img src="img/madrid.jpg"/>
-      </div>
+        <div id="madridCarousel" class="carousel slide jumbotron">
+          <div class="container">
+            <ol class="carousel-indicators">
+              <li class="active" data-target="#madridCarousel" data-slide-to="0"></li>
+              <li data-target="#madridCarousel" data-slide-to="1"></li>
+              <li data-target="#madridCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="img/madrid.jpg">
+              </div>
+              <div class="item">
+                <img src="img/madrid2.jpg">
+              </div>
+              <div class="item">
+                 <img src="img/madrid3.jpg">
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#madridCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+          </a>
+          <a class="right carousel-control" href="#madridCarousel" data-slide="next">
+            <span class="icon-next"></span>
+          </a>
+        </div>
     </div>
     <div id="aspenCo" class="panel panel-primary">
       <div class="panel-body">

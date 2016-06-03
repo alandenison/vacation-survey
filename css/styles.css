@@ -10,14 +10,25 @@
 .jumbotron {
   text-align: center;
   max-width: 600px;
+  height: 500px;
   margin-left: 20px;
+  background-color: #edc772;
+  color: darkred;
+}
+#headertron {
+  height: 350px;
+  margin-top: 8px;
+
 }
 body {
   background-color: #3e6d99;
+  font: white;
 }
 .panel {
   max-width: 800px;
   margin-left: 20px;
+  background-color: darkred;
+  color: lightyellow;
 }
 img {
   max-width: 585px;
@@ -28,3 +39,4 @@ img {
 #again {
   display: none;
 }
+.carou
