@@ -12,6 +12,7 @@
   max-width: 600px;
   height: 500px;
   margin-left: 20px;
+  margin-right: 20px;
   background-color: #edc772;
   color: darkred;
 }
@@ -39,4 +40,13 @@ img {
 #again {
   display: none;
 }
-.carou
+.outsidelink {
+  color: white;
+}
+
+.simply{
+  max-width: 600px;
+}
+.panel-footer{
+  background-color: #f2b5a6
+}
